@@ -45,7 +45,7 @@
       "runtime" : {
          "requires" : {
             "Class::Accessor::Lite::Lazy" : "0",
-            "Encode" : "0",
+            "Encode" : "2.57",
             "Furl" : "0",
             "JSON" : "0",
             "Text::Sprintf::Named" : "0",
@@ -64,7 +64,7 @@
    "provides" : {
       "WWW::NHKProgram::API" : {
          "file" : "lib/WWW/NHKProgram/API.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "WWW::NHKProgram::API::Area" : {
          "file" : "lib/WWW/NHKProgram/API/Area.pm"
@@ -105,5 +105,5 @@
          "web" : "https://github.com/moznion/WWW-NHKProgram-API"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

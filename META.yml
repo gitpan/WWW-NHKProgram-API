@@ -30,7 +30,7 @@ no_index:
 provides:
   WWW::NHKProgram::API:
     file: lib/WWW/NHKProgram/API.pm
-    version: 0.01
+    version: 0.02
   WWW::NHKProgram::API::Area:
     file: lib/WWW/NHKProgram/API/Area.pm
   WWW::NHKProgram::API::Date:
@@ -51,7 +51,7 @@ provides:
     file: lib/WWW/NHKProgram/API/Service.pm
 requires:
   Class::Accessor::Lite::Lazy: 0
-  Encode: 0
+  Encode: 2.57
   Furl: 0
   JSON: 0
   Text::Sprintf::Named: 0
@@ -61,4 +61,4 @@ resources:
   bugtracker: https://github.com/moznion/WWW-NHKProgram-API/issues
   homepage: https://github.com/moznion/WWW-NHKProgram-API
   repository: git://github.com/moznion/WWW-NHKProgram-API.git
-version: 0.01
+version: 0.02

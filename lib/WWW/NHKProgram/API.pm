@@ -13,7 +13,7 @@ use Class::Accessor::Lite::Lazy (
     ro_lazy => [qw/provider/],
 );
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 sub list {
     my $self = shift;
@@ -140,7 +140,7 @@ Get program list.
         date    => '2014-02-04',
     });
 
-And following the same (you must C<use utf8;>);
+And following the same;
 
     my $program_list = $client->list({
         area    => '東京',
@@ -164,7 +164,7 @@ Get program list by genre.
         date    => '2014-02-04',
     });
 
-Yes! you can also specify following when you C<use utf8>;
+Yes! you can also specify following;
 
     my $genre_list = $client->genre({
         area    => '東京',
