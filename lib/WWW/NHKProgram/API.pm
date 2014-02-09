@@ -13,7 +13,7 @@ use Class::Accessor::Lite::Lazy (
     ro_lazy => [qw/provider/],
 );
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 sub list {
     my $self = shift;
@@ -169,7 +169,7 @@ Yes! you can also specify following;
     my $genre_list = $client->genre({
         area    => '東京',
         service => 'ＮＨＫ総合１',
-        genre   => '0000',
+        genre   => '定時・総合',
         date    => '2014-02-04',
     });
 

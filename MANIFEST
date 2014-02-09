@@ -11,6 +11,7 @@ eg/program_now_on_air.pl
 lib/WWW/NHKProgram/API.pm
 lib/WWW/NHKProgram/API/Area.pm
 lib/WWW/NHKProgram/API/Date.pm
+lib/WWW/NHKProgram/API/Genre.pm
 lib/WWW/NHKProgram/API/Provider.pm
 lib/WWW/NHKProgram/API/Provider/Common.pm
 lib/WWW/NHKProgram/API/Provider/Genre.pm
